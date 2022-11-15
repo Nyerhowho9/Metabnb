@@ -11,7 +11,7 @@ class Header extends Component{
         return <div className="headerContainer ">
             <nav>
                 <div className="logoDiv">
-                    <img src={logo} alt="Metabnb logo"/>
+                    <img src={logo} className="img-fluid" alt="Metabnb logo"/>
                 </div>
                 <div className="navLinks">
                     <a href="#">Home</a>

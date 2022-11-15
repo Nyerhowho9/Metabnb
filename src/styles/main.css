@@ -65,18 +65,40 @@ input::placeholder{
  }
   /*General Syling for main component*/
   .adv{
-    background-color: pink;
     text-align: center;
     font-size: 48px;
     margin-top: 55px;
+    margin-bottom: 55px;
+  }
+  .rowCont{
+    margin: auto;
+    width: 80%;
+  }
+  .rowCont>div{
+    
   }
   .cap{
+    /*
     display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+    font-size: 12px;
   }
-  .one>div>img{
+  
+  .cont>div>img{
     height: 265px;
     width: 260px;
   }
+  .cont{
+    text-align: center;
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    
+    
+  }
+ 
+  
   
 @media only screen and (min-width: 769px){
       /*Big screen Syling for header component*/
@@ -153,6 +175,11 @@ input::placeholder{
     }
 }
 @media only screen and (max-width: 768px){
+    .headerContainer{
+        margin-bottom: 40px;
+    
+    
+    }
     nav{
         width: 100vw
         

@@ -16,7 +16,7 @@ class Hero extends Component{
                 </div>
             </div>
             <div className="hero-img">
-                <img src={Heropic} alt='grouped images'/>
+                <img src={Heropic} className="img-fluid" alt='grouped images'/>
             </div>
             
 

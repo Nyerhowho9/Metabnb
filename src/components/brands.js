@@ -9,13 +9,13 @@ class Brands extends Component{
     render(){
         return <div className="brands">
         <div className="brand mb">
-            <img src={MB} alt="MBToken logo" />
+            <img src={MB} className="img-fluid" alt="MBToken logo" />
         </div>
         <div className="brand meta ">
-            <img src={MM} alt="MBToken logo" />
+            <img src={MM} className="img-fluid" alt="MBToken logo" />
         </div>
         <div className="brand sea">
-            <img src={sea} alt="MBToken logo" />
+            <img src={sea} className="img-fluid" alt="MBToken logo" />
         </div>
     </div>
     }
