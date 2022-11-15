@@ -28,6 +28,9 @@ body{
   .hero-container{
     margin-bottom: 60px;
   }
+  .hero-text>p{
+    font-size: 22px;
+  }
   .colo{
     color: #A02279;
 }
@@ -60,7 +63,21 @@ input::placeholder{
  .brand{
     padding-top: 10px;
  }
- 
+  /*General Syling for main component*/
+  .adv{
+    background-color: pink;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 55px;
+  }
+  .cap{
+    display: flex;
+  }
+  .one>div>img{
+    height: 265px;
+    width: 260px;
+  }
+  
 @media only screen and (min-width: 769px){
       /*Big screen Syling for header component*/
     .headerContainer{
