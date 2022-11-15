@@ -8,7 +8,7 @@ class Header extends Component{
         super(props);
     }
     render(){
-        return <div className="headerContainer">
+        return <div className="headerContainer ">
             <nav>
                 <div className="logoDiv">
                     <img src={logo} alt="Metabnb logo"/>
