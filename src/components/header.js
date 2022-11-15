@@ -1,5 +1,6 @@
 import React from "react";
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import logo from '../images/logo.png';
 import '../styles/main.css';
 
@@ -14,8 +15,8 @@ class Header extends Component{
                     <img src={logo} className="img-fluid" alt="Metabnb logo"/>
                 </div>
                 <div className="navLinks">
-                    <a href="#">Home</a>
-                    <a href="#">Place to stay</a>
+                    <Link to="/">Home</Link>
+                    <Link to="places">Place to stay</Link>
                     <a href="#">NFTs</a>
                     <a href="#">Community</a>
                 </div>
