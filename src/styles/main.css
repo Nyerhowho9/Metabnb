@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap');
 body{
     padding: 0px;
     margin: 0px;
+    font-family: 'Red Rose', cursive;
     
 }
   /*General Syling for header component*/
@@ -69,14 +71,14 @@ input::placeholder{
     font-size: 48px;
     margin-top: 55px;
     margin-bottom: 55px;
+    font-weight: 700;
+    color: black;
   }
   .rowCont{
     margin: auto;
     width: 80%;
   }
-  .rowCont>div{
-    
-  }
+  
   .cap{
     /*
     display: flex;
@@ -98,7 +100,32 @@ input::placeholder{
     
   }
  
-  
+   /*General Syling for bottom component*/
+  .bottom{
+    background-color: #A02279;
+  }
+  .bottomCont{
+    margin: auto;
+    width: 80%;
+  }
+  .nft-text{
+    color: #FFFFFF;
+  }
+  .nft-text>h2{
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .nft-text>p{
+    font-size: 18px;
+  }
+  .bottom-btn{
+    border: none;
+    background-color: #FFFFFF;
+    color: #A02279;
+    border-radius: 8px;
+    height: 48px;
+    width: 40%;
+  }
   
 @media only screen and (min-width: 769px){
       /*Big screen Syling for header component*/

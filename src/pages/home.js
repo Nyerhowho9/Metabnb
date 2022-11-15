@@ -3,6 +3,8 @@ import Header from "../components/header";
 import Hero from "../components/hero";
 import Brands from "../components/brands";
 import Main from "../components/main";
+import Bottom from "../components/bottom";
+import Footer from "../components/footer";
 
 function Home() {
     return <div className="home ">
@@ -10,6 +12,8 @@ function Home() {
         <Hero/>
         <Brands/>
         <Main/>
+        <Bottom/>
+        <Footer/>
 
     </div>;
   }
