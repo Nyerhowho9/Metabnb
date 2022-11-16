@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
 body{
     padding: 0px;
     margin: 0px;
@@ -7,6 +8,8 @@ body{
 }
   /*General Syling for header component*/
   nav{
+    margin: auto;
+    width: 80%;
     display: flex;
     margin-top: 25px;
  
@@ -17,17 +20,20 @@ body{
     text-decoration: none;
     text-align: center;
 }
-.btn >button{
+.hbtn >button{
     height: 42px;
     width: 170px;
     background-color: #A02279;
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
+    text-align: center;
 }
 
   /*General Syling for hero component*/
   .hero-container{
+    margin: auto;
+    width: 80%;
     margin-bottom: 60px;
   }
   .hero-text>p{
@@ -157,6 +163,87 @@ input::placeholder{
     color: #F7F7F7;
     
   }
+/*General Syling for filter component*/
+.filter{
+  margin: auto;
+    width: 80%;
+}
+.filterCont{
+  margin-bottom: 50px;
+  margin-top: 105px;
+}
+  .filterCont>a{
+    text-decoration: none;
+    color: #434343;
+    font-size: 20px;
+  }
+  .filterCont>button{
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    height: 48px;
+    width: 15%;
+    padding-right: 20px;
+    margin-right: 15px;
+    margin-top: -10px;
+    text-align: left;
+    padding-left: 20px;
+    
+  }
+  .filterCont>button>img{
+    float: right;
+
+  }
+/*General Syling for modal component*/
+.modal{
+  margin-top: 150px;
+}
+  .modal-title{
+    font-size: 24px;
+    
+  }
+  .mbody{
+    width: 95%;
+    margin: auto;
+  }
+  .mpara{
+    font-size: 16px;
+  }
+  .mbtn{
+    background-color: #F8F9FA;
+    border-radius: 15px;
+    border: 1px solid #CFD8DC;
+    height: 68px;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    padding-top: 20px;
+  }
+  .mcont{
+    gap: 10px;
+  }
+  .micon{
+    float: left;
+    margin-top: -9px;
+  }
+  .wc{
+    background-color: #FFFFFF;
+  }
+  
+  .arr{
+    float: right;
+  }
+  @media only screen and (max-width: 992px) {
+    .filterCont{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .filterCont>button{
+      width: 30%;
+    }
+  }
 @media only screen and (min-width: 769px){
       /*Big screen Syling for header component*/
     .headerContainer{
@@ -165,13 +252,12 @@ input::placeholder{
     
     }
     nav{
-        display: flex;
-        margin-top: 25px;
+        
      
     }
     .logoDiv{
         flex: 1;
-        margin-left: 50px;
+        
        
     }
     .navLinks{
@@ -184,7 +270,7 @@ input::placeholder{
     .btn{
         flex: 1;
         text-align: right;
-        margin-right: 50px;
+        
     
         
     }
@@ -218,7 +304,7 @@ input::placeholder{
     }
     .hero-img >img{
         height: 300px;
-        width: 80%;
+        width: 90%;
         
     }
 
@@ -238,8 +324,8 @@ input::placeholder{
     
     }
     nav{
-        width: 100vw
-        
+       
+      flex-direction: column; 
     }
     .logoDiv{
         width: 30%;
@@ -279,7 +365,11 @@ input::placeholder{
         text-align: center;
         height: 100px;
     }
-
+     /*bottom component styling*/
+    .bottom-btn{
+      width: 65%;
+    }
+     /*footer component styling*/
     .footerLogo{
         margin-bottom: 50px;
     }
@@ -287,6 +377,8 @@ input::placeholder{
         margin-left: -50px;
         margin-top: 30px;
     }
+     /*filter component styling*/
+     
    
 }
 @media only screen and (max-width: 600px){

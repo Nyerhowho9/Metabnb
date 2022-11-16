@@ -13,8 +13,8 @@ import eight from '../images/8a.png';
 class Main extends Component{
     render(){
         return <div >
-            <div className="row">
-                <h2 className=" adv mx-5 col-12">Inspiration for your next adventure</h2>
+            <div className="">
+                <h2 className=" adv mx-5 ">Inspiration for your next adventure</h2>
             </div>
             <div className="rowCont">
                 <div className="row">

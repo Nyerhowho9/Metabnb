@@ -2,6 +2,7 @@ import React from "react";
 import { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from '../images/logo.png';
+import Modal from "./modal";
 import '../styles/main.css';
 
 class Header extends Component{
@@ -10,6 +11,7 @@ class Header extends Component{
     }
     render(){
         return <div className="headerContainer ">
+        
             <nav>
                 <div className="logoDiv">
                     <img src={logo} className="img-fluid" alt="Metabnb logo"/>
@@ -20,11 +22,14 @@ class Header extends Component{
                     <a href="#">NFTs</a>
                     <a href="#">Community</a>
                 </div>
-                <div className="btn">
-                    <button>Connect wallet</button>
+                <div className="hbtn">
+                    <button type="button" className="btn " data-bs-toggle="modal" data-bs-target="#myModal">Connect wallet</button>
                 </div>
+                
             </nav>
             
+        <Modal/>
+           
         </div>;
     }
 }
