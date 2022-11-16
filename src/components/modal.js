@@ -17,7 +17,7 @@ class Modal extends Component{
                         <h5 className="modal-title ps-3">Connect Wallet</h5>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div className="modal-body mbody">
+                    <div className="modal-body mbody mb-3">
                         <p className="mpara">Choose your preferred wallet:</p>
                         <div className="d-flex flex-column mcont">
                             <button className="mbtn"><img src={mm} alt="metamask icon" className="img-fluid micon"/><span className="ps-4 mspan">Metamask</span> <img src={arrow} alt="arrow" className="img-fluid arr pt-1"/></button>
